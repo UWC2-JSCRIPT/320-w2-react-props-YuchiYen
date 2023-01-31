@@ -1,0 +1,71 @@
+First review the lecture especially understand map.
+
+
+create-react-app blog-homepage
+in blog-homepage
+npm start
+npm install --save prop-types
+
+<React.Fragment>
+<...>
+
+<></>
+
+useState hook
+
+
+
+import React, {useState} from 'react'
+inside the function
+do 
+example 
+const [itemToAdd, setItemText] = useState{'jiji'}
+
+
+itemToAdd now is assigned the value 'jiji'
+setitemText is a function.
+                 ========
+onChange ={event => setItemTextIevent.target.value}
+                    =================
+
+example:
+this happens in the child where the props are being used
+import PropTypes from 'prop-ypes';
+
+in the end 
+Picture.proptypes = {
+imgUrl: PropTypes.string.isRequired,
+algTag: PropTypes.string.isRequired
+}}
+
+App.js 
+return a big dig
+Top portion flow from left to right
+wrap around:
+
+use flex-wrap:wrap  
+https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap
+
+bottom  potion.
+flow from left to right
+can wrap around, just make sure the width of each div < (total width/3)
+
+Create a jsx for top
+
+create a jsx for bottom
+
+title
+description
+image
+link
+author
+	name
+	image
+	isMediumMember
+postDate
+minutesToRead
+hasAudioAvailale
+memberPreview
+
+Build small components and gradually combine them together.
+to make it reusable like the img in picture example -> use prop -> pass from the parent (calling) program 
